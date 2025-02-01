@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanyakumari District</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            padding: 14px 20px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        nav a.active {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        /* Content Styles */
+        section {
+            padding: 40px 20px;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 2.5em;
+            color: #003366;
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            text-align: center;
+            color: #333;
+        }
+
+        .image-gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .image-gallery img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .image-gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        .attraction-card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 20px;
+            width: 300px;
+            text-align: center;
+        }
+
+        .attraction-card h3 {
+            font-size: 1.8em;
+            color: #003366;
+        }
+
+        .attraction-card p {
+            font-size: 1.1em;
+            color: #666;
+        }
+
+        .tourism-list {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .tourism-item {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 250px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Kanyakumari District</h1>
+    <p>The Southernmost Tip of India</p>
+</header>
+
+<nav>
+    <a href="#home" class="active">Home</a>
+    <a href="#about">About</a>
+    <a href="#attractions">Attractions</a>
+    <a href="#tourism">Tourism</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="home">
+    <h2>Welcome to Kanyakumari</h2>
+    <p>Kanyakumari is known for its stunning sunsets, beaches, temples, and cultural heritage. A beautiful place where the Arabian Sea, Bay of Bengal, and Indian Ocean meet.</p>
+    <div class="image-gallery">
+        <img src="image1.jpg" alt="Vivekananda Rock Memorial">
+        <img src="image2.jpg" alt="Kanyakumari Beach">
+        <img src="image3.jpg" alt="Thiruvalluvar Statue">
+    </div>
+</section>
+
+<section id="about">
+    <h2>About Kanyakumari</h2>
+    <p>Kanyakumari, formerly known as Cape Comorin, is a district located at the southern tip of the Indian subcontinent. It is renowned for its rich cultural heritage and stunning landscapes.</p>
+    <h3>Geography</h3>
+    <p>The district is surrounded by the Arabian Sea, Bay of Bengal, and the Indian Ocean. It has a tropical climate, making it a year-round tourist destination.</p>
+</section>
+
+<section id="attractions">
+    <h2>Tourist Attractions</h2>
+    <div class="attraction-card">
+        <h3>Vivekananda Rock Memorial</h3>
+        <p>A monument built in honor of Swami Vivekananda, located on a small island off the coast.</p>
+    </div>
+    <div class="attraction-card">
+        <h3>Thiruvalluvar Statue</h3>
+        <p>A 133-foot statue of the Tamil poet and philosopher Thiruvalluvar, located on a rock off the shore.</p>
+    </div>
+    <div class="attraction-card">
+        <h3>Kanyakumari Beach</h3>
+        <p>A famous beach where you can witness both the sunrise and sunset.</p>
+    </div>
+</section>
+
+<section id="tourism">
+    <h2>Tourism</h2>
+    <div class="tourism-list">
+        <div class="tourism-item">
+            <h3>Accommodation</h3>
+            <p>There are numerous hotels, resorts, and homestays in and around Kanyakumari for tourists.</p>
+        </div>
+        <div class="tourism-item">
+            <h3>Things to Do</h3>
+            <ul>
+                <li>Visit Vivekananda Rock Memorial</li>
+                <li>Explore the local temples</li>
+                <li>Enjoy the beaches and take part in water sports</li>
+                <li>Experience the local culture and festivals</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>If you have any questions or would like more information, feel free to contact us.</p>
+    <p>Email: info@kanyakumari.com | Phone: +91 9790369955</p>
+    <div id="map">
+        <p>Location: Kanyakumari, Tamil Nadu, India</p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Kanyakumari District. All Rights Reserved.</p>
+</footer>
+
+<script>
+    // Add active class to navigation items based on section
+    const navLinks = document.querySelectorAll('nav a');
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            navLinks.forEach(item => item.classList.remove('active'));
+            link.classList.add('active');
+        });
+    });
+</script>
+
+</body>
+</html>
